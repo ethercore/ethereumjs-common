@@ -7,10 +7,12 @@ export const chains: chainsType = {
     '4': 'rinkeby',
     '42': 'kovan',
     '6284': 'goerli',
+    '466': 'ethercore',
   },
   mainnet: require('./mainnet.json'),
   ropsten: require('./ropsten.json'),
   rinkeby: require('./rinkeby.json'),
   kovan: require('./kovan.json'),
   goerli: require('./goerli.json'),
+  ethercore: require('./ethercore.json'),
 }

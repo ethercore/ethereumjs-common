@@ -1,0 +1,92 @@
+{
+  "name": "ethercore",
+  "chainId": 466,
+  "networkId": 466,
+  "comment": "EtherCore main network",
+  "url": "https://github.com/ethercore/go-ethercore",
+  "genesis": {
+    "hash": "0x9bc5f1def3b96ac2b4a6d7f8a5047d6db2451328eb9469df48c06a6a4a4f3734",
+    "timestamp": "0x5e0be100",
+    "gasLimit": 8000000,
+    "difficulty": 524288,
+    "nonce": "0x0000000000000042",
+    "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "stateRoot": "0x2b4ee0ec8b39032acb69c1e8b44a50776df3cb84546cdcf269bcac06ced37c9e"
+  },
+  "hardforks": [
+    {
+      "name": "chainstart",
+      "block": 0,
+      "consensus": "pow",
+      "finality": null
+    },
+    {
+      "name": "homestead",
+      "block": 0,
+      "consensus": "pow",
+      "finality": null
+    },
+    {
+      "name": "dao",
+      "block": null,
+      "consensus": "pow",
+      "finality": null
+    },
+    {
+      "name": "tangerineWhistle",
+      "block": 0,
+      "consensus": "pow",
+      "finality": null
+    },
+    {
+      "name": "spuriousDragon",
+      "block": 0,
+      "consensus": "pow",
+      "finality": null
+    },
+    {
+      "name": "byzantium",
+      "block": 0,
+      "consensus": "pow",
+      "finality": null
+    },
+    {
+      "name": "constantinople",
+      "block": 0,
+      "consensus": "pow",
+      "finality": null
+    },
+    {
+      "name": "petersburg",
+      "block": 0,
+      "consensus": "pow",
+      "finality": null
+    },
+    {
+      "name": "istanbul",
+      "block": 0,
+      "consensus": "pow",
+      "finality": null
+    }
+  ],
+  "bootstrapNodes": [
+    {
+      "ip": "207.148.105.65",
+      "port": "30303",
+      "id": "dfcfd268e7d4631cec5a94d7eeb5981a2ed3f30235c774e1bf0a4e843672405e5a1c93502e1631edf108b6f1ea8701fb97e6d892eb5e3775c70dc53b2f773b9f",
+      "network": "EtherCore",
+      "chainId": 466,
+      "location": "",
+      "comment": ""
+    },
+    {
+      "ip": "207.148.105.65",
+      "port": "30503",
+      "id": "6c67afac3a018ee5641b0aba996f180fbb718aa7857174cad568b00440a43cccb1845124cd1cbe43c7ce1e95d597a3d20d175f0bf8494d875e83ec15e0f42cb4",
+      "network": "EtherCore",
+      "chainId": 466,
+      "location": "",
+      "comment": ""
+    }
+  ]
+}
